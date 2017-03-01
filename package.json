@@ -1,0 +1,36 @@
+{
+  "description": "An example of bundling CKEditor with Webpack 2",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "scripts": {
+    "bundle": "webpack"
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-autoformat": "^0.4.0",
+    "@ckeditor/ckeditor5-basic-styles": "^0.7.0",
+    "@ckeditor/ckeditor5-clipboard": "^0.4.0",
+    "@ckeditor/ckeditor5-editor-classic": "^0.7.0",
+    "@ckeditor/ckeditor5-enter": "^0.7.0",
+    "@ckeditor/ckeditor5-heading": "^0.7.0",
+    "@ckeditor/ckeditor5-image": "^0.3.0",
+    "@ckeditor/ckeditor5-link": "^0.5.0",
+    "@ckeditor/ckeditor5-list": "^0.5.0",
+    "@ckeditor/ckeditor5-paragraph": "^0.6.0",
+    "@ckeditor/ckeditor5-typing": "^0.7.0",
+    "@ckeditor/ckeditor5-undo": "^0.7.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015-webpack2": "^1.0.0",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "node-sass": "^4.5.0",
+    "raw-loader": "^0.5.1",
+    "regenerator-runtime": "^0.10.3",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.0"
+  }
+}
