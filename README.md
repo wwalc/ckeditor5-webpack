@@ -4,11 +4,16 @@ This is a dummy project which shows how to bundle CKEditor 5 with webpack (versi
 
 ### Quick start
 
-1. Create a bundle:
+1. Clone this repository:
+	<pre>
+	git clone https://github.com/wwalc/ckeditor5-webpack.git
+	cd ckeditor5-webpack
+	</pre>
+2. Create a bundle:
     <pre>
     npm install
     npm run bundle</pre>
-2. Open index.html in your browser.
+3. Open index.html in your browser.
 
 ### Official webpack support
 
