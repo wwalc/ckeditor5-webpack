@@ -9,7 +9,8 @@ import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 import Enter from '@ckeditor/ckeditor5-enter/src/enter';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Image from '@ckeditor/ckeditor5-image/src/image';
-import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle/imagestyle';
+import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
+import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Link from '@ckeditor/ckeditor5-link/src/link';
@@ -26,6 +27,7 @@ ClassicEditor.create( document.querySelector( '#editor' ), {
 		Enter,
 		Heading,
 		Image,
+		ImageCaption,
 		ImageStyle,
 		ImageToolbar,
 		Italic,
